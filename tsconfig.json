@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext",
+            "ES2020.Promise"
+        ],
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "noImplicitAny": true,
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "downlevelIteration": true,
+        "baseUrl": ".",
+        "paths": {
+            "#components/*": [
+                "./src/components/*"
+            ],
+            "#hooks/*": [
+                "./src/hooks/*"
+            ]
+        }
+    },
+    "include": [
+        "./src",
+        "./test"
+    ]
+}
